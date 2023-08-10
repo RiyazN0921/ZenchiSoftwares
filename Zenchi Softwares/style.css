@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container input{
+    color: #000;
+}
+
+.container button{
+    padding: 1px;
+    
+}
+
+.createdOne{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.createdOne h2{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.createdOne p{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}

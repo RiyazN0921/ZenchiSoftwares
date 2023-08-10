@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zenchi Softwares</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cookies</h1>
+<div class="container">
+    <label for="cookieName">Cookie Name:</label>
+    <input type="text" id="cookieName" placeholder="Enter Cookie name">
+  
+    <label for="cookieValue">Cookie Value:</label>
+    <input type="text" id="cookieValue" placeholder="Enter Cookie Value">
+  
+    <button onclick="createCookie()">Create</button>
+    <button onclick="deleteCookie()">Delete</button>
+    <button onclick="retrieveCookie()">Retrieve</button>
+</div>
+  
+<div class="createdOne">
+    <h2>Created Cookie:</h2>
+    <p><strong>Name:</strong> <span id="createdCookieName"></span></p>
+    <p><strong>Value:</strong> <span id="createdCookieValue"></span></p>
+</div>
+  
+
+  <script src="./script.js"></script>
+</body>
+</html>
